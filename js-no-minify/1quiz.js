@@ -34,6 +34,10 @@ Quiz.prototype.next = function () {
         hide(guess0);
         hide(guess1);
         hide(progress);
-        score.textContent = "Bravo, vous marquez " + quiz.score + " points";
+        if (quiz.score > 0) {
+            score.textContent = `Bravo, vous marquez ${quiz.score} points`;
+        } else {
+            score.textContent = "Vous ne marquez aucuns points.";
+        }
     }
 };

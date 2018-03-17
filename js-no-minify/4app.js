@@ -2,7 +2,7 @@
 const quiz = new Quiz();
 
 //questions creations
-let question1 = new Question ("Quelle est la capitale de la Colombie?", "Bogota", "Medellin", 1, false);
+const question1 = new Question ("Quelle est la capitale de la Colombie?", "Bogota", "Medellin", 1, false);
 const question2 = new Question ("Quelle est la population totale de la Colombie en 2016?", "48 700 000", "62 400 000", 2, false);
 const question3 = new Question ("De quel pays la Colombie tient t'elle son indépendance?", "Espagne", "USA", 3, false);
 const question4 = new Question ("", "", "", 4, false);
